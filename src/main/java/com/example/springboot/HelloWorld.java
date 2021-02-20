@@ -21,5 +21,10 @@ public class HelloWorld {
 	public HelloWorldBean helloWorldPathvariable(@PathVariable String name) {
 		return new HelloWorldBean(String.format("hello-world,%s",name));
 	}
+	
+//	@RequestMapping(method=RequestMethod.GET,path="/hello-world-bean")
+//	public HelloWorldBean helloWorldBean() {
+//		return new HelloWorldBean("HelloWorld");
+//	}
     
 }
